@@ -1,24 +1,25 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './styles/App.css';
 import Header from './layout/Header';
 import Footer from './sections/Footer';
 import Hero from './sections/Hero';
 import Services from './sections/Services';
-import './styles/App.css';
+import AboutUs from 'sections/AboutUs';
+import Team from 'sections/Team';
 
 function App() {
   return (
-   <Router>
+
       <div className="App">
         <Header />
         <main className="app-main">
-          <Routes>
-            <Route path="/" element={<Hero />} />
-            <Route path="/servicios" element={<Services />} />
-          </Routes>
+            <Hero />
+            <AboutUs/>
+            <Services />
+            <Team />
         </main>
         <Footer />
       </div>
-    </Router>
+
   );
 }
 

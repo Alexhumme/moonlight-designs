@@ -8,6 +8,8 @@ import cld2right from "../../assets/elements/nubes/l2_r.png";
 import cld1left from "../../assets/elements/nubes/l3_l.png";
 import cld1right from "../../assets/elements/nubes/l3_r.png";
 
+import "./Hero.css"
+
 import React from "react";
 
 

@@ -115,10 +115,3 @@
 .cloud-3 .cloud-right {
   animation: cloud-open-close-right 10s ease-in-out infinite;
 }
-
-/* ----- Estilo de las secciones -----*/
-
-@import url("Hero.css");
-@import url("AboutUs.css");
-@import url("Services.css");
-@import url("Footer.css");

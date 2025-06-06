@@ -2,9 +2,7 @@ import React from "react";
 import "./Services.css";
 export default function Services() {
     return (
-
-
-        <div class="container">
+        <div class="container app-section">
 
             <div class="card">
                 <h2>DISEÑO DE IDENTIDAD</h2>
@@ -38,7 +36,7 @@ export default function Services() {
             </div>
 
         </div>
-        
+
     );
 }
 
