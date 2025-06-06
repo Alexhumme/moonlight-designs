@@ -1,3 +1,4 @@
+import star from "../assets/elements/start_white.png";
 import logo from "../assets/elements/logo_white.png";
 import React from "react";
 import Navbar from "./Navbar";
@@ -18,7 +19,10 @@ export default function Header(params) {
              <Navbar />
 
             <div className="app-header-right">
-                <button type="button" className="login-button">Conoce mas</button>
+                <button type="button" className="login-button">
+                    <img src={star} alt="" />
+                    Conoce mas
+                </button>
             </div>
  
         </header>

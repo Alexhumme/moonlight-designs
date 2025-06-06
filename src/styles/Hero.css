@@ -1,0 +1,46 @@
+/* Hero */
+.app-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.app-hero-content {
+    margin: auto;
+}
+
+.app-hero .wheel {
+    background-color: #0f0431;
+    width: 420px;
+    height: 420px;
+    border-radius: 400px;
+    border: 60px solid #ffec82;
+    display: grid;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.app-hero .wheel div, .app-hero .wheel img {
+    grid-area: 1 / 1 / 1 / 1;
+    margin: auto;
+}
+
+.app-hero .wheel-text {
+    animation: spin 40s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
+}
+
+.app-hero .clouds{
+    bottom: 0px;
+}
