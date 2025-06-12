@@ -1,0 +1,49 @@
+.app-aboutus {
+    margin: 0;
+    padding: 0px 20px;
+    background-color: #B247FF; /* fondo morado */
+    color: white;
+    font-family: 'Georgia', serif;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-aboutus .container {
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+ }
+
+.app-aboutus .logo img {
+  max-width: 250px;
+  height: auto;
+ }
+
+.app-aboutus .texto {
+  flex: 1;
+ }
+
+.app-aboutus h1 {
+  font-size: 3.5rem;
+  margin: 0;
+  line-height: 1.2;
+ }
+
+.app-aboutus hr {
+  border: 1px solid white;
+  margin: 20px 0;
+ }
+
+.app-aboutus p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+ }
+
+.app-aboutus strong {
+  color: white;
+  font-weight: bold;
+ }
