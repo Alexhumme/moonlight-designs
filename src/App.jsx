@@ -3,6 +3,7 @@ import Header from './layout/Header';
 import Footer from './sections/Footer';
 import Hero from './sections/Hero';
 import Services from './sections/Services';
+import Team from './sections/Team';
 import './styles/App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/servicios" element={<Services />} />
+            <Route path="/team" element={<Team />} />
           </Routes>
         </main>
         <Footer />
