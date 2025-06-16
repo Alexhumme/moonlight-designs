@@ -1,0 +1,85 @@
+.contact-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title,
+.subtitle {
+  font-family: "Cinzel";
+}
+
+.contact-container .title {
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  margin: 0;
+  line-height: 60px;
+}
+
+.contact-container .subtitle {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: white;
+  margin: 0;
+}
+.contact-container .separator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-container .separator div {
+  border: none;
+  height: 4px;
+  margin: 20px 0;
+  width: 80%;
+  background-color: white;
+}
+
+.contact-container .contact-form {
+  background-color: #19003a;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  gap: 15px;
+}
+
+.contact-container .input-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #26004d;
+  border: none;
+  padding: 12px;
+  color: white;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.contact-form textarea {
+  width: calc(100% - 24px);
+}
+
+.contact-form button {
+  background: linear-gradient(to right, #a94cf2, #e94ae2);
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.contact-form button:hover {
+  transform: scale(1.05);
+}

@@ -1,21 +1,61 @@
-.container {
+.cards-container {
   display: flex;
   gap: 30px;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding-inline: 30px;
   color: white;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 
 .card {
-  background-color: rgba(41, 13, 63, 100);
+  background-color: #290d3f8f;
   border-radius: 16px;
-  padding: 50px;
-  width: 300px;
+  padding-top: 40px;
+  padding-inline: 40px;
+  width: 240px;
+  height: 420px;
   text-align: center;
+  z-index: 2;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.services-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-block: 70px;
+}
+.services-div div {
+  height: 3px;
+  width: 40%;
+  background-color: white;
+}
+.services-div img {
+  width: 70px;
+}
+.services-div div,
+.services-div img {
+  z-index: 1;
+}
+
+.card p {
+  text-align: justify;
 }
 
 .card h2 {
-  font-family: 'Cinzel';
+  font-family: "Cinzel";
+  font-size: 32px;
+  font-weight: bolder;
+  margin: 0px;
+}
+.card hr {
+  width: 12rem;
+  color: white;
+}
+.app-services .clouds {
+  rotate: 180deg;
 }

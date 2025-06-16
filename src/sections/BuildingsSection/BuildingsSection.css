@@ -1,0 +1,43 @@
+.app-buildings {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.window {
+  transition: fill-opacity 0.3s ease;
+  fill-opacity: 0.5;
+}
+.window:hover {
+  fill-opacity: 1;
+}
+
+.app-buildings img {
+  position: absolute;
+}
+
+.buildings-container {
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  padding-top: 300px;
+}
+.app-buildings .nube:nth-child(1n) {
+  animation: cloud-open-close-left 3s ease-in-out infinite;
+  margin-top: 150px;
+  margin-left: 400px;
+}
+.app-buildings .nube:nth-child(2n) {
+  animation: cloud-open-close-right 3s ease-in-out infinite;
+  margin-top: 350px;
+  transform: rotateY(180deg);
+  margin-left: -750px;
+}
+.gradient-overlay {
+  background-image: linear-gradient(to top, #0f0431 10%, transparent 60%);
+  width: 100%;
+    height: 2500px;
+  position: absolute;
+
+  pointer-events: none;
+  z-index: 2;
+}

@@ -1,17 +1,17 @@
 .app-aboutus {
     margin: 0;
-    padding: 0px 20px;
+    padding: 60px 0px;
     background-color: #B247FF; /* fondo morado */
     color: white;
-    font-family: 'Georgia', serif;
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
+
 }
 
-.app-aboutus .container {
-  max-width: 900px;
+.app-aboutus .about-container {
+  max-width: 1200px;
   display: flex;
   align-items: center;
   padding: 40px;
@@ -27,8 +27,9 @@
   flex: 1;
  }
 
-.app-aboutus h1 {
-  font-size: 3.5rem;
+.app-aboutus h2 {
+  font-family: 'Cinzel';
+  font-size: 6rem;
   margin: 0;
   line-height: 1.2;
  }
@@ -39,8 +40,9 @@
  }
 
 .app-aboutus p {
-  font-size: 1.1rem;
+  font-size: 24px;
   line-height: 1.8;
+  text-align: justify;
  }
 
 .app-aboutus strong {

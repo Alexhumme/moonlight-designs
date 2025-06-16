@@ -4,6 +4,11 @@
     src: url(../assets/fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: "Schibsted Grotesk";
+    src: url(../assets/fonts/SchibstedGrotestk/SchibstedGrotesk-VariableFont_wght.ttf);
+}
+
 @import url("Header.css");
 
 /* estilo para ubicar el main debajo del navbar */
