@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/moonlight-designs/static/css/main.226e5bb3.css",
+    "main.js": "/moonlight-designs/static/js/main.2ca83802.js",
+    "static/js/453.8bdc27ca.chunk.js": "/moonlight-designs/static/js/453.8bdc27ca.chunk.js",
+    "static/media/SchibstedGrotesk-VariableFont_wght.ttf": "/moonlight-designs/static/media/SchibstedGrotesk-VariableFont_wght.1e702fb28c3c31bf0c4c.ttf",
+    "static/media/Cinzel-VariableFont_wght.ttf": "/moonlight-designs/static/media/Cinzel-VariableFont_wght.7aeb3adcf73e49e8a979.ttf",
+    "static/media/Moonlight.png": "/moonlight-designs/static/media/Moonlight.ae3a0f0b4109d0b3f078.png",
+    "static/media/stars.png": "/moonlight-designs/static/media/stars.18212c9f7d35d36a6b1a.png",
+    "static/media/text_wheel.png": "/moonlight-designs/static/media/text_wheel.b4126b12d5911aaec797.png",
+    "static/media/isotipo_white.png": "/moonlight-designs/static/media/isotipo_white.ee94b38f722aaf34a8c0.png",
+    "static/media/l3_r.png": "/moonlight-designs/static/media/l3_r.ddfee4b747ecbf17271c.png",
+    "static/media/l2_l.png": "/moonlight-designs/static/media/l2_l.47d4b495326e1a52c824.png",
+    "static/media/l1_r.png": "/moonlight-designs/static/media/l1_r.971ffabf22fb85e3adcd.png",
+    "static/media/l2_r.png": "/moonlight-designs/static/media/l2_r.c8ad4d909d684d13a1bd.png",
+    "static/media/l3_l.png": "/moonlight-designs/static/media/l3_l.3bf60d2543c371f3999e.png",
+    "static/media/l1_l.png": "/moonlight-designs/static/media/l1_l.a1e331ec7bed9871e064.png",
+    "index.html": "/moonlight-designs/index.html",
+    "static/media/start_white.svg": "/moonlight-designs/static/media/start_white.7be0fb19e6c176e3967959bf849e3245.svg",
+    "main.226e5bb3.css.map": "/moonlight-designs/static/css/main.226e5bb3.css.map",
+    "main.2ca83802.js.map": "/moonlight-designs/static/js/main.2ca83802.js.map",
+    "453.8bdc27ca.chunk.js.map": "/moonlight-designs/static/js/453.8bdc27ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.226e5bb3.css",
+    "static/js/main.2ca83802.js"
+  ]
+}
