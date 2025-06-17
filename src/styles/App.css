@@ -18,8 +18,7 @@
 
 /* estilo general de las secciones*/
 .app-section {
-    min-height: calc(100% - 120px);
-    height: 700px;
+    min-height: 700px;
 
 }
 

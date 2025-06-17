@@ -69,3 +69,23 @@
     border: 3px solid white;
     gap: 10px;
 }
+
+@media (max-width: 1100px) {
+
+    .app-header-nav {
+        display: none;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .app-header-right {
+        display: none;
+    }
+    .app-header-left {
+        padding-right: 0px;
+    }
+    .app-header{
+        justify-content: center;
+    }
+}

@@ -83,3 +83,13 @@
 .contact-form button:hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 500px) {
+  .contact-container .title {
+    font-size: 48px;
+  }
+  .contact-container .subtitle {
+    font-size: 20px;
+  }
+
+}
