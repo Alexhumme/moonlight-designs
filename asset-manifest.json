@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/moonlight-designs/static/css/main.226e5bb3.css",
+    "main.css": "/moonlight-designs/static/css/main.bd4f6a6b.css",
     "main.js": "/moonlight-designs/static/js/main.2ca83802.js",
     "static/js/453.8bdc27ca.chunk.js": "/moonlight-designs/static/js/453.8bdc27ca.chunk.js",
     "static/media/SchibstedGrotesk-VariableFont_wght.ttf": "/moonlight-designs/static/media/SchibstedGrotesk-VariableFont_wght.1e702fb28c3c31bf0c4c.ttf",
@@ -17,12 +17,12 @@
     "static/media/l1_l.png": "/moonlight-designs/static/media/l1_l.a1e331ec7bed9871e064.png",
     "index.html": "/moonlight-designs/index.html",
     "static/media/start_white.svg": "/moonlight-designs/static/media/start_white.7be0fb19e6c176e3967959bf849e3245.svg",
-    "main.226e5bb3.css.map": "/moonlight-designs/static/css/main.226e5bb3.css.map",
+    "main.bd4f6a6b.css.map": "/moonlight-designs/static/css/main.bd4f6a6b.css.map",
     "main.2ca83802.js.map": "/moonlight-designs/static/js/main.2ca83802.js.map",
     "453.8bdc27ca.chunk.js.map": "/moonlight-designs/static/js/453.8bdc27ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.226e5bb3.css",
+    "static/css/main.bd4f6a6b.css",
     "static/js/main.2ca83802.js"
   ]
 }
